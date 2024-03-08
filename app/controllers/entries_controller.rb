@@ -20,7 +20,7 @@ class EntriesController < ApplicationController
     else
       flash["notice"] = "Login first."
     end
-    redirect_to "/login"
+    redirect_to "/sessions"
   end
   end
 
